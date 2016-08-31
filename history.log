@@ -1,0 +1,92 @@
+    1  su
+    2  sudo apt
+    3  su
+    4  sudo apt-get install apt
+    5  exit
+    6  sudo apt install firefox gnome-terminal
+    7  sudo apt install iceweasel gnome-terminal
+    8  mount
+    9  sudo shutdown -h now
+   10  startx
+   11  i3
+   12  sudo apt-get install apt
+   13  sudo apt install light-dm
+   14  apt search lightdm
+   15  sudo apt install lightdm
+   16  startx
+   17  sudo apt install xserver
+   18  sudo apt install x
+   19  sudo /etc/init.d/lightdm start
+   20  nano .bashrc 
+   21  exit
+   22  mount /dev/sr0 
+   23  mount
+   24  cd /media/cdrom
+   25  cd /media/cdrom0
+   26  ls
+   27  ls ./64Bit/
+   28  sudo ./64Bit/runasroot.sh
+   29  sudo ./runasroot.sh
+   30  chmod üx ./runasroot.sh
+   31  chmod +x ./runasroot.sh
+   32  sudo chmod +x ./runasroot.sh
+   33  sudo umount .
+   34  cd ..
+   35  sudo umount cdrom0/
+   36  man mount
+   37  mount -o rw /dev/sr0 /media/cdrom0/
+   38  sudo mount -o rw /dev/sr0 /media/cdrom0/
+   39  cd cdrom0/
+   40  cp -R * ~/guestext/
+   41  mkdir guestext
+   42  cd guestext/
+   43  ls
+   44  sudo ./runasroot.sh 
+   45  sudo ./autorun.sh 
+   46  make
+   47  sudo ./VBoxLinuxAdditions.run 
+   48  sudo shutdown -r now
+   49  sudo apt install gnome
+   50  cd guestext/
+   51  ls
+   52  ./VBoxLinuxAdditions.run 
+   53  sudo ./VBoxLinuxAdditions.run 
+   54  tail /var/log/VBoxGuestAdditions.log 
+   55  sudo apt install make gcc perl
+   56  sudo apt install linux-headers-$(uname -r)
+   57  sudo ./VBoxLinuxAdditions.run 
+   58  ssh-keygen -t rsa -b 4096 -C "philipp@rolfz.de"
+   59  gedit .ssh/id_rsa.pub 
+   60  cd workspace/jekylltest/
+   61  git push origin gh-pages
+   62  ls
+   63  bundle install
+   64  git status
+   65  jekyll build
+   66  bundle exec build
+   67  bundle exec jekyll build
+   68  rm -rf _layouts/
+   69  bundle exec jekyll build
+   70  git status
+   71  cat Gemfile.lock 
+   72  cat .gitignore 
+   73  jekyll serve
+   74  bundle exec jekyll serve
+   75  git status
+   76  git bash
+   77  cd ..
+   78  git init jekylltest2
+   79  cd jekylltest2/
+   80  ls
+   81  nano Gemfile
+   82  bundle install
+   83  sudo gem install nokogiri -v '1.6.8.'
+   84  sudo gem install nokogiri -v '1.6.8'
+   85  sudo apt install zlib
+   86  gem update --system
+   87  sudo gem update --system
+   88  sudo gem install nokogiri -v '1.6.8'
+   89  uname -r
+   90  cat /etc/debian_version 
+   91  history | grep apt install
+   92  history > history.log
